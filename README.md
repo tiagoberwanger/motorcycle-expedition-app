@@ -44,11 +44,13 @@ pip install -r requirements.txt
 
 4. Iniciar o Servidor
 
-`uvicorn main:app --reload`
+```Bash
+uvicorn main:app --reload
+```
 
 📖 Exemplo de Uso (Payload)
 
-POST /route-plan
+`POST /route-plan`
 
 ```JSON
 {
